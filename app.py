@@ -64,7 +64,7 @@ def main():
     # 设置上方导航栏
     st.sidebar.title('功能导航')
     page = st.sidebar.radio("请选择页面", ("熊光豪毕设简介","验证码上传识别", "辅助输入验证码"))
-    if page == "熊光豪毕设简介":
+    if page == "毕设简介":
         with open('README.md', 'r', encoding='utf-8') as f:
             markdown_content = f.read()
         image1 = Image.open('./asset/1.png')
